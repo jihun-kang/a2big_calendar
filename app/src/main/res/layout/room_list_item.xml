@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+
+    >
+<!--
+    <com.a2big.android.library.utils.DNetworkImageView
+        android:id="@+id/networkImageView"
+        android:layout_width="75dp"
+        android:layout_height="75dp"/>
+-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="60dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_vertical">
+
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:layout_width="fill_parent"
+            android:textSize="16dp" 
+            android:textColor="#ff000000" 
+            android:id="@+id/text1"
+            android:text="fff"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:layout_width="fill_parent"
+            android:textSize="16dp"
+            android:textColor="#ff000000"
+            android:id="@+id/text2"
+            android:text="222"
+
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="예약가능"
+        android:id="@+id/btnMakeBook" />
+
+</LinearLayout>
